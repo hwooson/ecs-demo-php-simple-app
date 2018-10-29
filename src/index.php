@@ -18,6 +18,7 @@
                 <h1>Simple PHP App and Here I put something to check updating</h1>
                 <h2>Congratulations</h2>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
+                <p>Your PHP app is deployed using CloudFormation</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
